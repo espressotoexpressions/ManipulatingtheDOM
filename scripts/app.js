@@ -31,9 +31,49 @@ txt3Change.className = "makebigger";
 
 /*button 4*/
 let btn4Change = document.getElementById('btn4');
+let txt4Change = document.getElementById('txt4')
 
-let txt4Change = document.getElementById('txt4');
-let img4Change= document.getElementById('img4')
-btn3Change.addEventListener('click',function(event){
-
+btn4Change.addEventListener('click',function(event){
+    txt4Change.className = "changefontfamily";
 });
+
+/*button 5*/
+let btn5Change = document.getElementById('btn5');
+let txt5Change = document.getElementById('txt5')
+
+btn5Change.addEventListener('click',function(event){
+    txt5Change.className = "changefontweight";
+});
+
+/*button 6*/
+let btn6Change = document.getElementById('btn6');
+let txt6Change = document.getElementById('txt6')
+
+btn6Change.addEventListener('click',function(event){
+    txt6Change.className = "changebg";
+});
+
+/*button 7*/
+let btn7Change = document.getElementById('btn7');
+let txt7Change = document.getElementById('txt7');
+
+btn7Change.addEventListener('click',function(event){
+    txt7Change.className = "addborder";
+});
+
+/*button 8*/
+let btn8Change = document.getElementById('btn8');
+let txt8Change = document.getElementById('txt8');
+
+btn8Change.addEventListener('click',function(event){
+    txt8Change.className = "center";
+});
+
+/*button 10*/
+let btn10Change = document.getElementById('btn10');
+let txt10Change = document.getElementById('txt10');
+
+btn10Change.addEventListener('click',function(event){
+   txt10Change.classList.add("center","addborder","changebg");
+});
+

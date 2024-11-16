@@ -5,3 +5,22 @@
 .makebigger{
     font-size: 50px;
 }
+
+.changefontfamily{
+    font-family: cursive;
+}
+
+.changefontweight{
+    font-weight:  bold;
+}
+
+.changebg{
+    background-color: brown;
+}
+
+.addborder{
+    border: 1px dotted black;
+}
+.center{
+text-align: center;
+}
